@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
-    <div class='App-header'>
-      <h1>Projects</h1>
+    <div>
+      <h1 class='text-center text-gray-900 hover:text-green-100'>Projects</h1>
     </div>
   );
 };
