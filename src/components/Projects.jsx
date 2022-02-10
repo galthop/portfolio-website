@@ -1,52 +1,78 @@
-import { useState } from 'react';
-
 const Projects = () => {
-  const [project, setProject] = useState({
-    title: 'Backend project',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
-  deserunt ea doloremque natus error, rerum quas odio quaerat nam ex
-  commodi hic, suscipit in a veritatis pariatur minus consequuntur!`,
-  });
-
   return (
-    <div class='flex flex-col'>
-      <div class='max-w-md py-4 px-8 bg-blue-200 shadow-lg rounded-lg my-2 mx-2'>
-        <div>
-          <h2 class='text-gray-800 text-3xl italic'>{project.title}</h2>
-          <p class='mt-2 text-gray-600'>{project.description}</p>
+    <div>
+      <h1 class='text-3xl underline font-extrabold font-sans my-3 text-center'>
+        My projects
+      </h1>
+      <div class='flex justify-center flex-wrap'>
+        <div class='max-w-md py-4 px-8 bg-blue-200 shadow-lg rounded-lg my-2 mx-2'>
+          <div>
+            <h2 class='text-gray-800 text-3xl italic'>Backend project: API</h2>
+            <p class='mt-2 text-gray-600'>
+              About: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam in perspiciatis officiis? Vero id rem obcaecati facilis
+              quisquam expedita? Ex doloremque dolore adipisci. Sunt numquam,
+              itaque minus eius est iste!
+            </p>
+          </div>
+          <div class='flex justify-center mt-4'>
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href =
+                  'https://northcoders-backend-hiten.herokuapp.com/api/';
+              }}
+              class='bg-green-500 px-4 py-2 rounded-full text-xl font-medium hover:bg-green-600'>
+              Take a look!
+            </button>
+          </div>
         </div>
-        <div class='flex justify-center mt-4'>
-          <button
-            href='https://www.google.com'
-            class='bg-green-500 px-4 py-2 rounded-full text-xl font-medium hover:bg-green-600'>
-            Take a look!
-          </button>
+        <div class='max-w-md py-4 px-8 bg-blue-200 shadow-lg rounded-lg my-2 mx-2'>
+          <div>
+            <h2 class='text-gray-800 text-3xl italic'>
+              Frontend project: Webpage
+            </h2>
+            <p class='mt-2 text-gray-600'>
+              About: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam in perspiciatis officiis? Vero id rem obcaecati facilis
+              quisquam expedita? Ex doloremque dolore adipisci. Sunt numquam,
+              itaque minus eius est iste!
+            </p>
+          </div>
+          <div class='flex justify-center mt-4'>
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = 'https://nc-games-hiten.netlify.app/';
+              }}
+              class='bg-green-500 px-4 py-2 rounded-full text-xl font-medium hover:bg-green-600'>
+              Take a look!
+            </button>
+          </div>
         </div>
-      </div>
-      <div class='max-w-md py-4 px-8 bg-blue-200 shadow-lg rounded-lg my-2 mx-2'>
-        <div>
-          <h2 class='text-gray-800 text-3xl italic'>{project.title}</h2>
-          <p class='mt-2 text-gray-600'>{project.description}</p>
-        </div>
-        <div class='flex justify-center mt-4'>
-          <button
-            href='https://www.google.com'
-            class='bg-green-500 px-4 py-2 rounded-full text-xl font-medium hover:bg-green-600'>
-            Take a look!
-          </button>
-        </div>
-      </div>
-      <div class='max-w-md py-4 px-8 bg-blue-200 shadow-lg rounded-lg my-2 mx-2'>
-        <div>
-          <h2 class='text-gray-800 text-3xl italic'>{project.title}</h2>
-          <p class='mt-2 text-gray-600'>{project.description}</p>
-        </div>
-        <div class='flex justify-center mt-4'>
-          <button
-            href='https://www.google.com'
-            class='bg-green-500 px-4 py-2 rounded-full text-xl font-medium hover:bg-green-600'>
-            Take a look!
-          </button>
+        <div class='max-w-md py-4 px-8 bg-blue-200 shadow-lg rounded-lg my-2 mx-2'>
+          <div>
+            <h2 class='text-gray-800 text-3xl italic'>
+              Group project: Fridge Tracker
+            </h2>
+            <p class='mt-2 text-gray-600'>
+              About: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam in perspiciatis officiis? Vero id rem obcaecati facilis
+              quisquam expedita? Ex doloremque dolore adipisci. Sunt numquam,
+              itaque minus eius est iste!
+            </p>
+          </div>
+          <div class='flex justify-center mt-4'>
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href =
+                  'https://github.com/galthop/koalas-project';
+              }}
+              class='bg-green-500 px-4 py-2 rounded-full text-xl font-medium hover:bg-green-600'>
+              Take a look!
+            </button>
+          </div>
         </div>
       </div>
     </div>
