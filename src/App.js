@@ -5,7 +5,7 @@ import About from './components/About.jsx';
 
 function App() {
   return (
-    <div class='d'>
+    <div class='bg-gradient-to-r from-cyan-500 to-blue-500 w-[100vw] h-[100vh]'>
       <Title />
       <About />
       <Projects />
@@ -15,3 +15,4 @@ function App() {
 }
 
 export default App;
+//linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39))
