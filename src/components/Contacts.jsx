@@ -4,7 +4,7 @@ const Contacts = () => {
       <h1 className='text-3xl underline font-extrabold font-sans mt-8 text-center'>
         Contact me
       </h1>
-      <div className='flex my-8'>
+      <div className='flex mt-8 pb-10'>
         <img
           className='rounded-[1.2rem] w-[20vw] h-[20vw] object-cover border-blue-400 border-4 border-solid container max-w-[100px] max-h-[100px] mx-auto flex shadow hover:shadow-2xl hover:border-blue-700'
           src={require('../linkedinlogo.png')}

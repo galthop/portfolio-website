@@ -34,7 +34,7 @@ const Projects = () => {
             <h2 className='text-gray-800 text-3xl italic'>
               Frontend project: Webpage
             </h2>
-            <p class='mt-2 text-gray-600'>
+            <p className='mt-2 text-gray-600'>
               About: Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam in perspiciatis officiis? Vero id rem obcaecati facilis
               quisquam expedita? Ex doloremque dolore adipisci. Sunt numquam,
