@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <div>
-      <h1 className='text-3xl underline font-extrabold font-sans my-3 text-center'>
+      <h1 className='text-3xl underline font-extrabold font-sans my-5 text-center'>
         My projects
       </h1>
       <div className='flex justify-center flex-wrap'>

@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className='flex justify-center flex-wrap'>
-      <div className='max-w-[80vw] py-4 px-8 bg-blue-200 shadow-lg rounded-lg my-2 mx-2 flex justify-center mt-4 font-sans'>
+      <div className='max-w-[1200px] py-4 px-8 bg-blue-200 shadow-lg rounded-lg my-2 mx-2 flex justify-center mt-4 font-sans'>
         <div>
           <p className='mt-2 text-black text-xl leading-8'>
             I'm an aspiring junior, fullstack developer who has just completed
