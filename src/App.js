@@ -5,7 +5,7 @@ import About from './components/About.jsx';
 
 function App() {
   return (
-    <div class='bg-gradient-to-tr from-blue-300 to-slate-400'>
+    <div className='bg-gradient-to-tr from-blue-300 to-slate-400'>
       <Title />
       <About />
       <Projects />
