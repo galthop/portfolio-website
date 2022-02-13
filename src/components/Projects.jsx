@@ -37,11 +37,12 @@ const Projects = () => {
               Board game reviews website
             </h2>
             <p className='mt-2 text-gray-600'>
-              A website where users can find information about board game
-              genres, filter reviews by category, vote on reviews, and more.
-              These requests are sent to the board game reviews API, so the user
-              can update and receive information from the API's web server in
-              real time, and see the effect(s) of their interaction immediately.
+              A responsive website where users can find information about board
+              game genres, filter reviews by category, vote on reviews, write
+              their own reviews, and more. These requests are sent to the board
+              game reviews API, so the user can update and receive information
+              from the API's web server in real time, and see the effect(s) of
+              their interaction immediately.
               <br></br>
               Technologies used: React, CSS, Axios
             </p>
@@ -60,13 +61,18 @@ const Projects = () => {
         <div className='max-w-md py-4 px-8 bg-blue-200 shadow-lg rounded-lg my-2 mx-2'>
           <div>
             <h2 className='text-gray-800 text-3xl underline italic'>
-              Group project: Fridge Tracker
+              Fridge Tracker mobile app
             </h2>
             <p className='mt-2 text-gray-600'>
-              About: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam in perspiciatis officiis? Vero id rem obcaecati facilis
-              quisquam expedita? Ex doloremque dolore adipisci. Sunt numquam,
-              itaque minus eius est iste!
+              Myself and 4 others created a “fridge tracker” iOS and android
+              mobile application, designed to help users manage their fridge
+              inventory. The app notifies you when food is about to expire and
+              allows items to be added to your fridge via manual input, barcode
+              scanning or taking a picture of an item and utilising machine
+              learning.
+              <br></br>
+              Technologies used: React Native, Formik, Expo, Firebase, Clarifai,
+              Open Food Facts
             </p>
           </div>
           <div className='flex justify-center mt-4'>
@@ -77,7 +83,7 @@ const Projects = () => {
                   'https://github.com/galthop/koalas-project';
               }}
               className='bg-green-500 px-4 py-2 rounded-full text-xl font-medium hover:bg-green-600'>
-              Take a look!
+              Look at the code!
             </button>
           </div>
         </div>

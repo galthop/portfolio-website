@@ -27,7 +27,7 @@ const Contacts = () => {
         />
         <img
           className='rounded-full w-[20vw] h-[20vw] object-cover border-blue-400 border-4 border-solid container max-w-[100px] max-h-[100px] mx-auto flex shadow hover:shadow-2xl hover:border-blue-700'
-          src={require('../githublogo2.png')}
+          src={require('../githublogo.png')}
           alt='github'
           onClick={(e) => {
             e.preventDefault();
