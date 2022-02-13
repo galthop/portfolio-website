@@ -7,7 +7,7 @@ const About = () => {
             I'm an aspiring junior, fullstack developer who has just completed
             the Northcoders coding bootcamp. My technical skillset includes
             JavaScript, React, Postgres, Tailwind (which I used to build this
-            website!) and more! I am currently studying PhaserJS for a new
+            website) and more! I am currently studying PhaserJS for a new
             project, and improving and extending some of my existing projects
             below.
           </p>
